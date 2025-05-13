@@ -29,9 +29,9 @@ app.use('/api/auth', authRoutes);
 app.use('/api/newsletter', newsletterRoutes);
 
 // catch 404 and forward to error handler
-app.use(middlewares.notFoundError);
+//app.use(middlewares.notFoundError);
 
-app.use(middlewares.errorHandler);
+//app.use(middlewares.errorHandler);
 
 //Listening for DB Operations
 const DB = mongoose.connection;
